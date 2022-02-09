@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(197, 71, 71);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.primera{
+    border: red 3px solid;
+}
+
+section{
+    padding: 10px;
+}

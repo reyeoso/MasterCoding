@@ -1,0 +1,22 @@
+body {
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primera {
+    border: solid red 2px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

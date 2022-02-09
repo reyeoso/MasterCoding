@@ -1,0 +1,34 @@
+h1{
+    color: crimson;
+}
+a{
+    
+    color: rgb(139, 0, 120);
+}
+h3{
+    color: darkgreen;
+    background-color: darkorange;
+}
+
+#primer{
+    color: darkorchid;
+}
+
+#segundo{
+    background-color: darkturquoise;
+}
+
+.tipo{
+    font-size: 30px;
+    color: fuchsia;
+}
+#etiqueta{
+    padding: 20px;
+    border: 30px;
+    margin: 10px;
+}
+
+#estilo{
+    display: inline-block;
+    background-color: green;
+}

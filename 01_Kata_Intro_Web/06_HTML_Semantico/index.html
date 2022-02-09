@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <header>
+        <h1>Encabezado principal</h1>
+        <nav>
+            <a href="#imagen1"></a>
+            <a href="#imagen2"></a>
+        </nav>
+    </header>
+</head>
+<body>
+
+    <main>
+        <!-- section, article -->
+        <section class="fotos">
+            <article>
+                <p>El baseball es un gusto adquirido</p>
+            </article>
+            <article>
+                <p>El basesball es el deporte rey</p>
+            </article>
+            <article>
+                <p>Fotos de baseball</p>
+            </article>
+            <aside>
+                <img src="" alt="foto de equipo de baseball">
+            </aside>
+        </section>
+    
+        <!-- figure figcap -->
+        <figure>
+            <img src="" alt="">
+            <figcaption>Pie de imagen y va a adentro de figure</figcaption>
+        </figure>      
+
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    <form name="form" action="post">
+
+        <!-- el nombre entre inputs y ids debe ser diferente, porque el nombre es el como lo vinculamos con su destino, el nombre indica el destino-->
+        <label for="nombre">Nombre:</label> <br>
+        <input type="text" name="vinculacion con" id="nombre" value="valor que se enviara" placeholder="esrcibe aqui" size="20"> <br>
+
+        <label for="cajita">Ejemplo de texto</label> <br>
+        <textarea name="" id="cajita" cols="10" rows="10"></textarea> <br>
+
+        <label for="correo">E-mail</label>
+        <input type="email" placeholder="e-mail" id="correo"> <br>
+
+        <label for="pass">Contrasena</label>
+        <input type="password" id="passw"> <br>
+
+        <!-- value es la informacion que se mandara -->
+        <input type="radio" id="rad" name="radio1" value="1">amarillo
+        <input type="radio" id="rad2" name="radio2" value="3" checked>azul
+        <input type="radio" id="rad3" name="radio3" value="6">rojo
+        <br>
+
+        <input type="checkbox" id="rad" name="radio1" value="1">arriba
+        <input type="checkbox" id="rad2" name="radio2" value="3" checked>abajo
+        <input type="checkbox" id="rad3" name="radio3" value="6">nada
+        <br>
+
+        <label for="colore">colores</label>
+        <select name="" id="">elige un color
+            <option value="1">negro</option>
+            <option value="2">rosa</option>
+            <option value="4">cafe</option>
+        </select><br>
+
+        <input type="submit" name="enviar" id="">
+
+
+    
+
+      
+    </form>
+
+</body>
+</html>
+

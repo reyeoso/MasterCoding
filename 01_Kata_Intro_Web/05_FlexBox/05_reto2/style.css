@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 550px;
+    width: 800px;
+    background-color: black;
+}
+
+.azul{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    width: 800px;
+    background-color: rgb(29, 29, 109);
+}
+.izquierda{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.derecha{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.blanco{
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+
+.blanco2{
+    display: flex;
+    align-items:flex-start;
+    justify-content:right;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+
+}
+
+.rojo{
+    height: 220px;
+    width: 220px;
+    background-color: red;
+
+}
+
+.rojo2{
+    height: 220px;
+    width: 470px;
+    background-color: red;
+
+}
+
+#dbajo{
+    display: flex;
+    align-items: flex-end;
+}
+
+#ibajo{
+    display: flex;
+    align-items: flex-end;
+}

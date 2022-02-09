@@ -1,0 +1,68 @@
+body{
+    background-color: white
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.top{
+    padding-left: 88%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5%;
+
+}
+
+#squares{
+    padding-left: 10px;
+
+}
+#roundp{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#search{
+    margin: auto;
+    display: block;
+    border-radius: 2em;
+    margin-top: 15px;
+    width: 35%;
+    height: 35px;
+    border-color: rgb(175, 167, 167);
+    color: rgb(146, 137, 137);
+}
+
+.bottom{
+   box-sizing: border-box;
+   padding-left: 600px;
+   padding-top: 40px;
+   color: grey;
+  
+}
+
+#lan{
+    color: blue;
+}
+
+#suerte{
+    padding: 15px;
+}
+
+#buscar{
+    padding: 15px;
+}
+
+#ofrecido{
+    margin-left: 650px;
+    text-size-adjust: 10px;
+    padding-top: 40px;
+    color: grey;
+}
